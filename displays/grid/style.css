@@ -1,0 +1,14 @@
+.displaygrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 21px 10px;
+    grid-template-areas: "Grilla-1 Grilla-2"
+                        "Grilla-3 Grilla-4"
+                        "Grilla-5 Grilla-6";
+    background-color: tomato;
+    padding: 20px;
+
+}
+
+
